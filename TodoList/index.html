@@ -13,36 +13,36 @@
     	<form action="#" >
     	<table>
     		<caption>
-    			<h1>todos</h1>
+    			todos
     		</caption>
     		<thead>
     			<tr>
-    			<th><input type="checkbox" name="all"></th>
-    			<th><input type="text" name="todo-input" placeholder="What needs to be done"></th>
+    			<th class="col-lt"><input type="checkbox" name="todo-value"></th>
+    			<th><input type="text" id="todo-input" name="todo-input" placeholder="What needs to be done"></th>
     			</tr>
     		</thead>
     		<tbody>
     			<tr>
-    				<td>
-    				<input type="checkbox" name="todo-value">
+    				<td class="col-lt">
+    				<span></span>
     				</td>
     				<td>111111111111</td>
     			</tr>
     			<tr>
-    				<td><input type="checkbox" name="todo-value"></td>
+    				<td class="col-lt"><span></span></td>
     				<td>222222222222</td>
     			</tr>
     			<tr>
-    				<td><input type="checkbox" name="todo-value"></td>
+    				<td class="col-lt"><span></span></td>
     				<td>33333333333</td>
     			</tr>
     		</tbody>
     		<tfoot>
     				<tr>
-    					<td colspan="2">
+    					<td id="bottom-col" colspan="2">
     						<p>0 items left</p>
     						<p><em>All</em> Active Completed</p>
-    						<button>Clear completed(3)</button>
+    						<button id="clear-completed">Clear completed(3)</button>
     					</td>
     				</tr>
     		</tfoot>
